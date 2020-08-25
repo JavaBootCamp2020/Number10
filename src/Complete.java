@@ -12,7 +12,7 @@ public class Complete {
 
         int number = 10;
 
-        double input;
+        int input;
 
         System.out.println("Enter a number (integer): ");
         input = sc.nextInt();
