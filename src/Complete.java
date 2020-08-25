@@ -18,17 +18,17 @@ public class Complete {
         input = sc.nextInt();
 
         if (input == 10 && input > 0){
-            System.out.println("You've enter the number 10.");
+            System.out.println("You've enter the number "+ input + ".");
             System.out.println("Number is positive.");
 
         } else if (input > 10 && input > 0){
-            System.out.println("you entered a number greater than 10.");
+            System.out.println("you entered a number " + input +  " which is greater than 10.");
             System.out.println("Number is positive.");
         } else if (input < 10 && input > 0){
-            System.out.println("you entered a number lesser than 10.");
+            System.out.println("you entered a number " + input + " which is less than 10.");
             System.out.println("Number is positive.");
         } else{
-            System.out.println("The number is less than 10.");
+            System.out.println("The number " + input + " is less than 10.");
             System.out.println("Number is not positive.");
         }
 
